@@ -1,0 +1,83 @@
+
+.tab {
+    padding: 12px 18px;
+    background: rgba(0,0,0,0.15);
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 4px;
+    a {
+        font-size: 1.125rem !important;
+    }
+}
+
+.getCollection {
+    border-radius: 5px;
+    padding: 4px 12px !important;
+}
+
+.collectionAmount {
+    display: none;
+}
+
+@media only screen and (min-width: 1599px) {
+
+}
+
+@media only screen and (max-width: 1439px) {
+
+}
+
+@media only screen and (max-width: 1365px) {
+
+}
+
+@media only screen and (max-width: 1279px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .collection {
+        display: none;
+    }
+
+    .collectionAmount {
+        // display: inline;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav_part {
+        display: block;
+    }
+
+    .claim_button {
+        width: 84px;
+    }
+    .deposit_button {
+        margin-left: 30px;
+        width: 104px;
+        margin-right: 20px;
+    }
+
+    .nav_tabs {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 559px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}

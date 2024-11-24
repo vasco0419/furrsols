@@ -1,0 +1,69 @@
+.root {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 24px;
+}
+
+.item {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    font-size: 0.75rem;
+}
+
+.number {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px 6px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+@media only screen and (min-width: 1599px) {
+
+}
+
+@media only screen and (max-width: 1439px) {
+
+}
+
+@media only screen and (max-width: 1365px) {
+
+}
+
+@media only screen and (max-width: 1279px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 559px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}

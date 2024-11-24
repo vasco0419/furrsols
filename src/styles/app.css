@@ -1,0 +1,128 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.root {
+
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+  }
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #73469B;
+    border-top-color: #e2eefd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  @keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+.global-padding {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.font-forward {
+    font-family:'Forward' !important;
+}
+
+.font-quick {
+    font-family: 'Quick' !important;
+}
+
+.font-sm {
+    font-size: 0.75rem !important;
+}
+
+.line-height-1 {
+    line-height: 1 !important;
+}
+
+@media only screen and (min-width: 1599px) {
+    html, body {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+
+}
+
+@media only screen and (max-width: 1365px) {
+
+}
+
+@media only screen and (max-width: 1279px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html, body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 559px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}

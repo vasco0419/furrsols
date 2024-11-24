@@ -1,0 +1,104 @@
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.menu_list {
+    margin-left: 56px;
+    a {
+        margin-right: 48px;
+        font-size: 0.875rem !important;
+    }
+}
+
+.wallet {
+    padding: 8px 16px !important;
+    i {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1599px) {
+
+}
+
+@media only screen and (max-width: 1439px) {
+
+}
+
+@media only screen and (max-width: 1365px) {
+
+}
+
+@media only screen and (max-width: 1279px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+    // .logo {
+    //     width: 196px;
+    // }
+
+    // .menu_list {
+    //     margin-left: 32px;
+    //     a {
+    //         margin-right: 24px;
+    //     }
+    // }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .header {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu_link {
+        height: 50px;
+        display: flex;
+        // text-align: center;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .menu_list {
+        margin-top: 30px;
+        margin-left: 0px;
+        justify-content: normal !important;
+        a {
+            margin-right: 30px;
+        }
+    }
+
+    .wallet {
+        justify-content: space-between;
+        pointer-events: auto;
+        height: 25px !important;
+        // width: 130px;
+        margin-top: -3px;
+        // text-align: center;
+        font-size: 10px !important;
+        
+    }
+    .wallet_button{
+        justify-content: unset;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 559px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
